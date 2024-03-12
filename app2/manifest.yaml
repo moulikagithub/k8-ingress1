@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app2
-        image: awsmouli/ingress2:v1
+        image: awsmouli/app2:v1
         imagePullPolicy: Always
         resources:
           requests:
